@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">r
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes-Top</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.ico">
+
+</head>
+
+<body class="classic-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;" style="margin-top: 0.7rem;"><a href="#home"><img
+                        class="icon-home" src="assets/img/home.png"
+                        alt="Logo de uma casa, ao clicar voltara para o começo da pagina"></a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#animes">Animes</a></li>
+                    <li><a href="#galeria">Gallery</a></li>
+                    <li><a href="#contato">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div id="home" class="menu-spacing"></div>
+    <section class="section classic-bg">
+        <div class="home-content">
+            <h2>WHAT IS ANIME?</h2>
+            <p>
+                According to the Japanese concept of anime, this term is used to classify all types from animations, that is, regardless of their origin (national or foreign). The origin of the word anime is uncertain. Some researchers consider it to be an abbreviation of the English animation, while others argue that it may have arisen from the French animée ("animated"). Anime can feature numerous different types such as children's, horror, romance, comedy, adventure, erotic science fiction, etc.
+            </p>
+            <div class="home-img">
+                <img src="assets/img/juncao-img.png" alt="Banner com os seis animes mais assistidos em 2022. Os animes estão organizados
+                da esquerda para a direita com um leve 'italico' nas imagens, contando com uma
+                divisão fina e branca entre elas. A primeira imagem é Demon Slayer: Kimetsu no 
+                Yaiba, a segunda imagem é Attack on Titan - Shingeki No Kyojin final season, 
+                a terceira é Kaguya-sama - Love is War Ultra Romantic, a quarta é Bleach - 
+                Thousand-year Blood War, a quinta é Chainsaw man e a sexta imagem é Blue
+                Lock.">
+            </div>
+            <h3>CHARACTERISTICS OF ANIME</h3>
+            <p>
+                Anime cartoons are characterized by the intense demonstration of the feelings and emotions of the characters through their facial expressions. The large eyes, full of brightness and color, the onomatopoeia and exaggerated expressions are some of the most common characteristics in anime.
+            </p>
+        </div>
+    </section>
+
+    <section class="section darkgray-bg">
+        <div id="top3" class="menu-spacing"></div>
+        <div class="home-content">
+            <h2 id="mobile-al" style="text-align: center;">Top 3 STUDIOS</h2>
+            <div class="intro-content">
+                <div class="intro-text-content divisao-grid">
+                    <h3>Mappa</h3>
+                    <p>
+                        MAPPA Co., Ltd. is a Japanese animation studio founded on June 14, 2011 by Masao Maruyama, founder and former producer of Madhouse. "MAPPA" is an acronym for Maruyama Animation Produce Project Association.
+                    </p>
+                </div>
+                <div class="intro-img home-img">
+                    <img src="assets/img/mappa.png" alt="Logo estúdio Mappa">
+                </div>
+
+                <div class="intro-text-content divisao-grid">
+                    <h3>Ufotable</h3>
+                    <p>
+                        Ufotable is a Japanese animation studio based in Suginami, Tokyo. Hikaru Kondou - founded the studio in October 2000. The company's name originates from a UFO-shaped table that Kondou found while developing the studio's vision.
+                    </p>
+                </div>
+                <div class="intro-img home-img">
+                    <img src="assets/img/ufotable.png" alt="Logo estúdio Ufotable">
+                </div>
+
+                <div class="intro-text-content divisao-grid">
+                    <h3>Pierrot</h3>
+                    <p>
+                        Pierrot Co., Ltd. is a Japanese animation studio founded in May 1979 by former employees of Tatsunoko Production and Mushi Production. Pierrot is known for several Series of popular anime all over the world.
+                    </p>
+                </div>
+                <div class="intro-img home-img">
+                    <img src="assets/img/pierrot.png" alt="Logo estúdio Pierrot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="animes" class="menu-spacing"></div>
+
+    <section class="section classic-bg">
+        <h2 style="text-align: center;">Animes</h2>
+        <div class="grid-animes">
+
+            <div class="grid">
+                <article>
+                    <h3 class="title-animes">Demon Slayer</h3>
+                    <div style="align-items: center;" class="intro-img home-img ">
+                        <img class="tamanho-animes" src="assets/img/demon.png"
+                            alt="Banner do anime Demon Slayer: Kimetsu no Yaiba">
+                    </div>
+                    <h4 class="sinopse">SYNOPSIS</h4>
+                    <p class="text-sinopse conteudo">Tanjiro, a kind-hearted young man who makes a living selling coal, He discovers that his family has been slaughtered by a demon. And to make matters worse, Nezuko, her younger sister and the only survivor, she was also transformed into a demon. Devastated by this grim reality, Tanjiro decides to become a demon slayer in order to turn his sister back into a human, and to Kill the demon that killed your family. A sad tale about two brothers, where the fates of the Humans and demons intertwine, it starts now.</p>
+                </article>
+                <article>
+                    <h3 class="title-animes">Attack on Titan</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="assets/img/attack.png"
+                            alt="Banner do anime Attack on Titan - Shingeki No Kyojin">
+                    </div>
+                    <h4 class="sinopse">SYNOPSIS</h4>
+                    <p class="text-sinopse conteudo">Eren Jaeger vowed to eliminate all the Titans, but in a desperate battle he becomes the thing he hates most. With its new powers, he fights for humanity's freedom, battling the monsters that threaten his home. Even after defeating the Female Titan, Eren can't rest - a horde of Titans approach Wall Rose and the battle on behalf of humanity continues.</p>
+                </article>
+                <article>
+                    <h3 class="title-animes">KAGUYA-SAMA</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="assets/img/kaguya.png"
+                            alt="Banner do anime KAGUYA-SAMA: LOVE IS WAR">
+                    </div>
+                    <h4 class="sinopse">SYNOPSIS</h4>
+                    <p class="text-sinopse conteudo">All elite youngsters with Bright futures end up at Shuchiin Academy. And both student council leaders, Kaguya Shinomiya and Miyuki Shirogane, are in love with each other. They're both too proud to confess their love, and now they're both They're fighting to see who make the other declare themselves first! The most fun part of love is the game of conquest! A new romantic comedy, about the intellectual battles of two elite students Passionate.</p>
+                </article>
+                <article>
+                    <h3 class="title-animes">Bleach</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="assets/img/bleach.png" alt="Banner do anime Bleach">
+                    </div>
+                    <h4 class="sinopse">SYNOPSIS</h4>
+                    <p class="text-sinopse conteudo">Kurosaki Ichigo is a boy from 15 years who can see, touch and talk to the spirits of dead people. Until one day he finds Kuchiki Rukia, a Shinigami (god of death), and later discovers that he is also a Shinigami. Now, with his powers, he will have to protect his city from evil forces.</p>
+                </article>
+                <article>
+                    <h3 class="title-animes">Chainsaw Man</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="assets/img/chainsaw.png" alt="Banner do anime Chainsaw Man">
+                    </div>
+                    <h4 class="sinopse">SYNOPSIS</h4>
+                    <p class="text-sinopse conteudo">Denji is a teenager who lives in with Pochita, the Chainsaw Demon. Because of the debts he inherited from his father, he lives in the misery, exterminating other demons with Pochita to pay the bills. Until, one day, Denji is betrayed and dies. In his last moments of consciousness, he enters into a contract with Pochita and is reborn as Chainsaw Man - a human with the heart of a demon.</p>
+                </article>
+                <article>
+                    <h3 class="title-animes">Blue Lock</h3>
+                    <div style="align-items: center;" class="intro-img home-img">
+                        <img class="tamanho-animes" src="assets/img/blue.png" alt="Banner do anime Blue Lock">
+                    </div>
+                    <h4 class="sinopse">SYNOPSIS</h4>
+                    <p class="text-sinopse conteudo">After suffering an embarrassment in the World Cup of the 2018 World Cup, the Japanese team struggles to recompose itself. The team lacks a top scorer, a star capable of guiding them to victory. In order to create a striker with hunger for the ball and thirst of victory, capable of overturning games considered impossible, the Japan Football Confederation It brings together 300 of the best grassroots players in the country in one place. Hundreds of young people are going to face a battle of muscles and egos to prove that they are the best.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section darkgray-bg">
+        <div id="galeria" class="menu-spacing"></div>
+        <div class="home-content">
+            <h2 style="text-align: center;">Gallery</h2>
+        </div>
+
+        <div class="grid-galeria home-content">
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/demon-2.jpg" alt="Imagem Demon Slayer: Kimetsu no Yaiba">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/attack-1.jpg"
+                    alt="Imagem Attack on Titan - Shingeki No Kyojin">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/kaguya-1.jpg" alt="Imagem KAGUYA-SAMA: LOVE IS WAR">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/bleach-1.jpg" alt="Imagem Bleach">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/bleach-2.png" alt="Imagem Bleach">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/kaguya-2.jpg" alt="Imagem KAGUYA-SAMA: LOVE IS WAR">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/chainsaw-1.png" alt="Imagem Chainsaw Man">
+            </div>
+            <div style="align-items: center;" class="intro-img home-img galeria-img">
+                <img class="tamanho-animes" src="assets/img/blue-1.jpg" alt="Imagem Blue Lock">
+            </div>
+        </div>
+    </section>
+
+    <form action="https://formsubmit.co/jefferson.martines@hotmail.com" method="POST" class="section classic-bg">
+        <div id="contato" class="menu-spacing"></div>
+        <div class="home-content">
+            <h2 style="text-align: center;">Contact</h2>
+        </div>
+        <div class="home-content contato-form">
+            <fieldset class="form-grid">
+                <div class="form-group">
+                    <label for="First Name">First Name</label>
+                    <input type="text" name="First Name" id="First Name" placeholder="Your First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Surname">Surname</label>
+                    <input type="text" name="Surname" id="Surname" placeholder="Your Surname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Your E-mail" required>
+                </div>
+                <div class="form-group full-width">
+                    <label for="Message">Message</label>
+                    <textarea style="resize: vertical;" name="Message" id="Message" cols="30" rows="10"
+                        placeholder="Your Message" required></textarea>
+                </div>
+                <div style="text-align: right;" class="form-group full-width">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+
+    <footer>
+        <a href="#home"><p class="darkgray-bg footer-cl">By Siddhi Amberkar</p></a>
+    </footer>
+</body>
+
+</html>
